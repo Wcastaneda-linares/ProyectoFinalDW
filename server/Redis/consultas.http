@@ -1,0 +1,9 @@
+@apiProfiles=http://localhost:3000/api/profile
+@apiUsers=http://localhost:3000/api/users
+
+@token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MzMwYzY4M2UwZTIwNTVhOTc3ZDA1MCIsInVzZXJuYW1lIjoid2Nhc3RhbmVkYSIsImlhdCI6MTY5ODAyNTYyNCwiZXhwIjoxNjk4MTEyMDI0fQ.tnr8WSmQonetHE0tVXp2f2lSUCzRlC6ixA7e4oOW57s
+# JWT
+@jwtSecret=secret
+
+GET {{apiUsers}}/user
+
